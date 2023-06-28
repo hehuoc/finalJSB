@@ -1,0 +1,19 @@
+.content{
+    width: 30%;
+    margin:2px auto;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+input{
+    width: 100%;
+}
+.content-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+#button{
+    padding: 4px 8px;
+}
