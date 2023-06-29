@@ -5,48 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./signUp.css">
 </head>
 
 <body>
     <div class="content">
-        <h1>Sign Up</h1>
-        <form action="">
-            <div class="content-item">
-                <label for="full-name" class="size">Full Name</label><br>
-                <input type="text" id="full-name" placeholder="Full Name" class="full-width">
-            </div>
-            <div class="content-item">
-                <label for="age" class="size">Age</label><br>
-                <input type="number" id="age" placeholder="Age" class="full-width">
-            </div>
-            <div class="content-item">
-                <label for="phone-number" class="size">Phone Number</label><br>
-                <input type="number" id="phone-number" placeholder="Phone Number" class="full-width">
-            </div>
-            <div class="content-item">
-                <label for="password" class="size">Password</label><br>
-                <input type="password" id="password" placeholder="Password" class="full-width">
-            </div >
-            <div class="content-item">
-                <label for="confirm-password" class="size">Confirm Password</label><br>
-                <input type="password" id="confirm-password" placeholder="Password" class="full-width">
-            </div >
-            <div>
-                <p class="size">Gender</p>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
-                <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Other</label>
+        <div id="image-container"><img src="" alt=""></div>
+        <div id="form-container">
+            <form action="" id="form">
+                <h1>Sign Up</h1>
+                <div class="content-item">
+                    <input type="text" id="full-name" placeholder="Full Name" class="full-width">
+                </div>
+                <div class="content-item">
+                    <input type="number" id="age" placeholder="Age" class="full-width">
+                </div>
+                <div class="content-item">
+                    <input type="number" id="phone-number" placeholder="Phone Number" class="full-width">
+                </div>
+                <div class="content-item">
+                    <input type="password" id="password" placeholder="Password" class="full-width">
+                </div>
+                <div class="content-item">
+                    <input type="password" id="confirm-password" placeholder="Password" class="full-width">
+                </div>
+                <div class="content-item">
+                    <p class="size">Gender</p>
+                    <div id="gender-container">
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male" class="margin-line">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female" class="margin-line">Female</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other" class="margin-line">Other</label>
+                        </div>
+                    </div>
 
-            </div>
-            <button id="button" type="submit" >Submit</button>
-        </form>
+
+
+                </div>
+                <div class="content-item">
+                    <input type="checkbox">
+                    <span>I agree to the Terms of User</span>
+                </div>
+                <div class="content-item text-center">
+                    <button id="button" type="submit">Submit</button>
+
+                </div>
+                <div class="content-item text-center">
+                    <p>Already have an account?<a href="./signIn.html">Log in here</a></p>
+
+                </div>
+            </form>
+        </div>
+
 
     </div>
-<script src="./signUp.js"></script>
+    <script src="./signUp.js"></script>
 </body>
 
 </html>
