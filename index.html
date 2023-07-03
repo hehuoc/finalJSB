@@ -12,24 +12,216 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
     <header>
-        <div>
-            <img src="" alt="">
-            <h1>Công ty TNHH Bột Cá Đông Dương</h1>
+        <div class="header">
+            <div id="logo"> <img src="./img/rubik-removebg-preview.png"></div><br>
+
         </div>
-        <div>
-            <i class="fa-sharp fa-solid fa-phone-volume" style="color: #e81111;"></i>
+
+        <div class="header-item">
+            <div class="name-logo">
+                <h1>Rubik</h1>
+            </div>
+
+        </div>
+        <div class="info">
+            <p class="info-sign"><a href="">Sign In</a> | <a href="">Sign Up</a></p>
         </div>
     </header>
-    <div id="container">
+    <div class="nav">
+        <div><i class="fa-solid fa-house"></i></div>
+        <div>Method</div>
+        <div class="item-name">Các khối rubik nên mua</div>
+        <div class="item-name"> <a href=""> cac bien the</a></div>
+        <div class="item-name"></div>
+        <div class="item-name"></div>
+        <div><i class="fa-sharp fa-solid fa-magnifying-glass"></i></div>
+
 
     </div>
-    <footer></footer>
+    <div class="slider">
+        <img class="slides" src="./img/IMG_2428.jpg" width="100%">
+        <img class="slides" src="./img/IMG_2691.jpg" width="100%">
+        <img class="slides" src="./img/IMG_2428.jpg" width="100%">
+        <script>
+            w3.slideshow(".slides", 1500);
+        </script>
+    </div>
+
+    <div id="container">
+        <div id="method">
+            <h2>Method</h2>
+            <div class="method-container">
+                <div class="method-item">
+                    <h3 class="method-header">CFOP</h3>
+                    <div class="img-container">
+                        <img src="./img/cfop.png" alt="" class="method-img">
+
+                    </div>
+                    <p class="method-info">Phương pháp CFOP, đôi khi được gọi là phương pháp Fridrich, là một trong
+                        những phương pháp được sử dụng phổ biến nhất trong việc giải tốc độ 3x3x3 Lập phương Rubik.
+                        Phương pháp này được phát minh vào đầu những năm 1980, kết hợp các cải tiến của một số phuơng
+                        pháp khác. </p>
+                    <div>
+                        <button class="method-btn">More</button>
+
+                    </div>
+                </div>
+                <div class="method-item">
+                    <h3 class="method-header">ROUX</h3>
+                    <div class="img-container">
+                        <img src="./img/roux.gif" alt="" class="method-img">
+
+                    </div>
+                    <p class="method-info">Roux (đọc là ru) là phương pháp giải Rubik nâng cao được phát minh bởi Gilles
+                        Roux - một Cuber người Pháp. Khác với CFOP chia khối Rubik thành 3 tầng và giải từng tầng bằng
+                        các bộ công thức có sẵn, Roux Method liên quan đến việc tạo các block 1x2x3 ở hai bên trước rồi
+                        sau đó giải các cạnh còn lại.
+                        Roux thiên về việc tự nghiệm hơn là học nhiều công thức như CFOP và nó có số move ít hơn hẳn.
+                    </p>
+                    <div>
+                        <button class="method-btn">More</button>
+                    </div>
+                </div>
+                <div class="method-item">
+                    <h3 class="method-header">ZZ</h3>
+                    <div class="img-container">
+                        <img src="./img/zz.png" alt="" class="method-img">
+
+                    </div>
+                    <p class="method-info">ZZ Method - một phương pháp giải Rubik 3x3 được phát minh bởi Zbigniew
+                        Zborowski vào năm 2006. Phương pháp này tập trung vào cả 2 yếu tố: số move thấp và tốc độ cao.
+                        Nó rất giống với CFOP (tiến trình giống nhau ngoại trừ bước 1), nhưng chính xác hơn là sự pha
+                        trộn giữa CFOP và Petrus. Trong khi bước đầu tiên của CFOP là tạo chữ thập, thì ZZ là EOline -
+                        bao gồm việc định hướng lại các cạnh và chỉ tạo duy nhất một đường thẳng nối tâm.</p>
+                    <div>
+                        <button class="method-btn">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="suggest">
+            <div class="suggest-container">
+                <div class="suggest-info">
+
+                </div>
+                <div class="suggest-img">
+                    <img src="" alt="">
+                </div>
+
+            </div>
+            <div id="suggest">
+                <div class="suggest-container">
+                    <div class="suggest-img">
+                        <img src="./img/rubik-gan-11-m-dou-3x3-stickerless-cao-cap-co-nam-cham-G1069-1634379802572.jpeg"
+                            alt="" class="suggest-img">
+                    </div>
+                    <div class="suggest-info">
+                        <h3 class="suggest-name">Gan 11m duo</h3>
+                        <p class="name-info">GAN 11 M Duo 3x3 là một phiên bản giá rẻ hơn của dòng GAN 11 M Pro phổ biến
+                            của họ. Khối lập
+                            phương này có cấu tạo giống với chiếc flagship nổi tiếng nhưng không có các tính năng điều
+                            chỉnh nam châm. Từ đó cấu thành một chiếc rubik siêu nhẹ 60g giá chỉ 800k so với 1300k của
+                            GAN 11 M PRO. Cắt giảm tính năng nhưng không cắt giảm hiệu suất</p>
+                    </div>
+
+
+                </div>
+                <div class="suggest-container">
+                    <div class="suggest-img">
+                        <img src="./img/tornv3.webp"
+                            alt="" class="suggest-img">
+                    </div>
+                    <div class="suggest-info">
+                        <h3 class="suggest-name">Tornardo V3 M</h3>
+                        <p class="name-info">GAN 11 M Duo 3x3 là một phiên bản giá rẻ hơn của dòng GAN 11 M Pro phổ biến
+                            của họ. Khối lập
+                            phương này có cấu tạo giống với chiếc flagship nổi tiếng nhưng không có các tính năng điều
+                            chỉnh nam châm. Từ đó cấu thành một chiếc rubik siêu nhẹ 60g giá chỉ 800k so với 1300k của
+                            GAN 11 M PRO. Cắt giảm tính năng nhưng không cắt giảm hiệu suất</p>
+                    </div>
+
+
+                </div>
+                <div class="suggest-container">
+                    <div class="suggest-img">
+                        <img src="./img/tor2.jpeg"
+                            alt="" class="suggest-img">
+                    </div>
+                    <div class="suggest-info">
+                        <h3 class="suggest-name">Tornardo V2 M</h3>
+                        <p class="name-info">GAN 11 M Duo 3x3 là một phiên bản giá rẻ hơn của dòng GAN 11 M Pro phổ biến
+                            của họ. Khối lập
+                            phương này có cấu tạo giống với chiếc flagship nổi tiếng nhưng không có các tính năng điều
+                            chỉnh nam châm. Từ đó cấu thành một chiếc rubik siêu nhẹ 60g giá chỉ 800k so với 1300k của
+                            GAN 11 M PRO. Cắt giảm tính năng nhưng không cắt giảm hiệu suất</p>
+                    </div>
+
+
+                </div>
+                <div class="suggest-container">
+                    <div class="suggest-img">
+                        <img src="./img/wrm.jpeg"
+                            alt="" class="suggest-img">
+                    </div>
+                    <div class="suggest-info">
+                        <h3 class="suggest-name">Gan 11m duo</h3>
+                        <p class="name-info">GAN 11 M Duo 3x3 là một phiên bản giá rẻ hơn của dòng GAN 11 M Pro phổ biến
+                            của họ. Khối lập
+                            phương này có cấu tạo giống với chiếc flagship nổi tiếng nhưng không có các tính năng điều
+                            chỉnh nam châm. Từ đó cấu thành một chiếc rubik siêu nhẹ 60g giá chỉ 800k so với 1300k của
+                            GAN 11 M PRO. Cắt giảm tính năng nhưng không cắt giảm hiệu suất</p>
+                    </div>
+
+
+                </div>
+                <div class="suggest-container">
+                    <div class="suggest-img">
+                        <img src="./img/rubik-gan-11-m-dou-3x3-stickerless-cao-cap-co-nam-cham-G1069-1634379802572.jpeg"
+                            alt="" class="suggest-img">
+                    </div>
+                    <div class="suggest-info">
+                        <h3 class="suggest-name">Gan 11m duo</h3>
+                        <p class="name-info">GAN 11 M Duo 3x3 là một phiên bản giá rẻ hơn của dòng GAN 11 M Pro phổ biến
+                            của họ. Khối lập
+                            phương này có cấu tạo giống với chiếc flagship nổi tiếng nhưng không có các tính năng điều
+                            chỉnh nam châm. Từ đó cấu thành một chiếc rubik siêu nhẹ 60g giá chỉ 800k so với 1300k của
+                            GAN 11 M PRO. Cắt giảm tính năng nhưng không cắt giảm hiệu suất</p>
+                    </div>
+                </div>
+                <div class="suggest-container">
+                    <div class="suggest-img">
+                        <img src="./img/rubik-gan-11-m-dou-3x3-stickerless-cao-cap-co-nam-cham-G1069-1634379802572.jpeg"
+                            alt="" class="suggest-img">
+                    </div>
+                    <div class="suggest-info">
+                        <h3 class="suggest-name">Gan 11m duo</h3>
+                        <p class="name-info">GAN 11 M Duo 3x3 là một phiên bản giá rẻ hơn của dòng GAN 11 M Pro phổ
+                            biến
+                            của họ. Khối lập
+                            phương này có cấu tạo giống với chiếc flagship nổi tiếng nhưng không có các tính năng
+                            điều
+                            chỉnh nam châm. Từ đó cấu thành một chiếc rubik siêu nhẹ 60g giá chỉ 800k so với 1300k
+                            của
+                            GAN 11 M PRO. Cắt giảm tính năng nhưng không cắt giảm hiệu suất</p>
+                    </div>
+
+                </div>
+
+
+
+
+                <footer></footer>
 </body>
 
 </html>
