@@ -45,5 +45,6 @@ submitButton.addEventListener('click', function submitForm(event) {
     alert('Please choose your gender')
   }
   alert('sign up successfully')
+  window.location.href = 'signIn.html'
 })
 

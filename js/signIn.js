@@ -8,6 +8,8 @@ let submitButton = document.getElementById('button')
 let email = document.getElementById('email')
 let password = document.getElementById('password')
 
+let emailUser = "ducduykg3979@gmail.com"
+let passwordUser = "ducduy44"
 
 submitButton.addEventListener('click', function submitForm(event) {
     event.preventDefault()
@@ -19,7 +21,15 @@ submitButton.addEventListener('click', function submitForm(event) {
     if(password.value == '') {
         alert('hay nhap password')
         password.focus()
-        return
-        
+        return 
+    }
+
+    if(email.value==emailUser && password.value == passwordUser){
+        alert('dang nhap thanh cong')
+        window.location.href = "index.html"
+    }
+    if(email.value != emailUser || password.value != passwordUser){
+        alert('dang nhap that bai')
+
     }
 })

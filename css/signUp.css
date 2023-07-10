@@ -33,7 +33,7 @@ h1 {
     width: 50%;
     height: 100vh;
     display: flex;
-    background-image: url("./img/signUp.jpeg");
+    background-image: url("../img/signUp.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 
